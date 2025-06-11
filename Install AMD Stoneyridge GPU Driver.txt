@@ -1,0 +1,9 @@
+Download: Link https://drivers.amd.com/drivers/radeon-software-adrenalin-2020-21.5.2-win10-64bit-legacyasics-june21-legacy.exe
+Make sure to download version 21.5.2! But don't install yet!
+Download Patch: Link https://coolstar.org/chromebook/downloads/drivers/stoney-amdkmdag-patch.zip
+Double click the exe and click the first install (with destination folder). But Don't click install on any further installation wizards.
+Wait for the driver to extract
+Extract and copy the patched amdkmdag.sys to
+C:\AMD\Radeon-Software-Adrenalin-2020-21.5.2-Win10-64Bit-LegacyASICs-June21-LEGACY\Packages\Drivers\Display\WT6A_INF\B367348\amdkmdag.sys
+Proceed with the driver installation. Windows may ask you about installing an unsigned driver. Click "Allow"
+Reboot. So long as testsigning is enabled, GPU should work and start immediately
